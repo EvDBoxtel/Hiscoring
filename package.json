@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "lite": "^4.0.5",
+    "live-server": "^1.2.1",
     "nodemon": "^2.0.7",
     "server": "^1.0.33"
   },

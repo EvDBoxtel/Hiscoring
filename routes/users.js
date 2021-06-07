@@ -97,4 +97,8 @@ router.get('/logout', (req, res) => {
     res.redirect('/users/login');
 });
 
+router.get('/bewegenbeleven', (req, res, next) => {
+    res.render('bewegenbeleven')
+});
+
 module.exports = router;

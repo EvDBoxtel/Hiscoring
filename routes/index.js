@@ -35,4 +35,8 @@ router.get('/berichten', (req, res) =>
 router.get('/werkboek', (req, res) => 
     res.render('werkboek')
 );
+
+router.get('/overzicht', (req, res) => 
+    res.render('overzicht')
+);
 module.exports = router;

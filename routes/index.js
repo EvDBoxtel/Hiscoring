@@ -39,4 +39,8 @@ router.get('/werkboek', (req, res) =>
 router.get('/overzicht', (req, res) => 
     res.render('overzicht')
 );
+
+router.get('/weather', (req, res) => 
+    res.render('weather')
+);
 module.exports = router;

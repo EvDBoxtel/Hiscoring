@@ -53,6 +53,15 @@ router.get('/Werkboek-Lichamelijke-Opvoeding-goed.pdf', (req, res) => {
  }
 );
 
+router.get('/Werkboek.pdf', (req, res) => {
+ var path = require('path');
+ var filePath = "./pdf/Werkboek.pdf"
+ var resolvedPath = path.resolve(filePath);
+ console.log(resolvedPath);
+ return res.sendFile(resolvedPath); 
+ }
+);
+
 // router.get('/Werkboek_Lichamelijke_Opvoeding_v1.pdf', (req, res) =>
 //     res.render('Werkboek_Lichamelijke_Opvoeding_v1.pdf')
 // );

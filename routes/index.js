@@ -44,7 +44,7 @@ router.get('/weather', (req, res) =>
     res.render('weather')
 );
 
-router.get('/Werkboek_Lichamelijke_Opvoeding_v1', (req, res) =>
-    res.render('werkboek_Lichamelijke_Opvoeding')
-);
+// router.get('/Werkboek_Lichamelijke_Opvoeding_v1.pdf', (req, res) =>
+//     res.render('Werkboek_Lichamelijke_Opvoeding_v1.pdf')
+// );
 module.exports = router;
